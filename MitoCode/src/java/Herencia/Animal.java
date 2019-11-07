@@ -1,7 +1,7 @@
 package Herencia;
 
 public class Animal {
-    // Las clases que ereden de animal pueden NO usar algunos atributos
+    // Las clases que hereden de animal pueden NO usar algun atributo
     private String nombre;
     private String tipo_alimientacion;
     private int edad;

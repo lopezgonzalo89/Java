@@ -14,7 +14,7 @@ public abstract class Animal {
         this.tipo_alimientacion = tipo_alimientacion;
         this.edad = edad;
     }    
-    //Se va a comportar de distintas maneras según el objeto que lo instancie
+    //alimentarse va a comportar de distintas maneras según el objeto que lo instancie
     //Por éste motivo no puede implementarse en la clase Super
     public abstract void alimentarse();
 

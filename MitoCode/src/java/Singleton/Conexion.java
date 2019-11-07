@@ -4,14 +4,14 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class Conexion {
-    
+public class Conexion {    
     private static Conexion conectado;
     
     //Evitar instancia mediante "new"
     private Conexion(){        
     }    
-    // Instancia sólo una vez por éste metodo
+    // Instancia sólo una vez por éste método
+    // Se puede instanciar porque es static
     public static Conexion getConexion(){
         if(conectado == null){
             conectado = new Conexion();

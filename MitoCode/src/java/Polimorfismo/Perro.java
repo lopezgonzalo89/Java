@@ -12,7 +12,7 @@ public class Perro extends Animal {
         this.raza = raza;
     }
     
-    //Override indica que voy a sobreescribir la logica del metodo
+    //Override indica que se va a sobreescribir la lógica del método
     @Override
     public void alimentarse() {
         System.out.println(getNombre() + " se alimenta de " + getTipo_alimientacion());        

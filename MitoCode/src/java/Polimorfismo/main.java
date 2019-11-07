@@ -10,8 +10,8 @@ public class main {
         dogo.getNombre();
         dogo.alimentarse();
         
-        //Instancio directo de animal porque Caballo no tiene un metodo unico
-        //Instancio otro objeto con el metodo abstracto diferente
+        //Se puede instanciar directo de Animal porque Caballo no tiene un método único
+        //Instancia otro objeto con el método abstracto sobreescrito
         Animal spirit = new Caballo();
         
         spirit.setNombre("Spirit");
@@ -21,11 +21,11 @@ public class main {
         spirit.moverse();        
         
         /*
-        El mismo metodo .alimentarse() de Animal
+        El mismo método .alimentarse() de Animal
         devuelve dos resultados diferentes
         porque fueron sobreescritos
         por dos instancias diferentes.
-        Una instancia puede no usar el metodo abstracto        
+        Una instancia puede no usar el método abstracto        
         */
     }
 }
