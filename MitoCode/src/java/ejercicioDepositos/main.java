@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class main {
     public static void main(String[] args) {
         //HardCode de los usuarios y condicionales
-        entities.Usuario Usser1 = new entities.Usuario(1, "Gonzalo", 1000);
-        entities.Usuario Usser2 = new entities.Usuario(2, "Juan", 500);
-        entities.Usuario Usser3 = new entities.Usuario(3, "Laura", 1500);
+        Usuario Usser1 = new Usuario(1, "Gonzalo", 1000);
+        Usuario Usser2 = new Usuario(2, "Juan", 500);
+        Usuario Usser3 = new Usuario(3, "Laura", 1500);
         
-        entities.Banco banco = new entities.Banco("Santander Rio", Usser1, Usser2, Usser3);
+        Banco banco = new Banco("Santander Rio", Usser1, Usser2, Usser3);
 
         Scanner sc = new Scanner(System.in);
 
